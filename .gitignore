@@ -1,0 +1,27 @@
+# ignore everything in the root
+/*
+
+# except
+!plugins/
+!themes/
+!.gitattributes
+!.gitignore
+!.github/
+!README.md
+!composer.json
+!composer.lock
+
+# ignore everything in the theme directory
+themes/*
+
+# except
+!themes/neeon/
+
+# ignore everything in the plugins directory
+plugins/*
+
+# except
+!plugins/neeon-core/
+!plugins/review-schema-pro/
+!plugins/rt-demo-importer/
+!plugins/rt-framework/
