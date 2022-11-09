@@ -1,0 +1,1 @@
+Only a folder pretending to be plugin files here.

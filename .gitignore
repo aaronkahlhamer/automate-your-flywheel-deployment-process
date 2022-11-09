@@ -22,6 +22,3 @@ plugins/*
 
 # except
 !plugins/neeon-core/
-!plugins/review-schema-pro/
-!plugins/rt-demo-importer/
-!plugins/rt-framework/
