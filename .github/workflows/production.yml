@@ -17,9 +17,9 @@ jobs:
         args: --profile --ignore-platform-reqs
 
     - name: Explore the GitHub Workspace
-      run: ls
-      run: ls plugins
-      run: pwd
+    - run: ls
+    - run: ls plugins
+    - run: pwd
 
     - name: Deploy plugins to Flywheel
       uses: easingthemes/ssh-deploy@v2.2.11
